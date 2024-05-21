@@ -1,0 +1,181 @@
+
+.header-content {
+    padding-bottom: 20px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    .main-btn{
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color:#89c9d4;
+    }
+
+}
+.header-content p{
+    padding-bottom: 20px;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+    word-spacing: 3px;
+   
+
+}
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 10%;  
+}
+
+//resume download button---------------------
+
+.cont-btn{
+    display: flex;
+    align-self:flex-start;
+
+}
+.main-btn
+{
+    border-radius: 30px;
+    color:inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-white);
+    display: flex;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    .btn-text{
+
+        padding: 0 2rem;
+        
+    }
+
+    .btn-icon{
+            background-color: var(--color-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            padding: 1rem;
+    }
+}
+----------------------------------------------------------------------------------
+ // .c{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+      // .cpp{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+      // .fa-js{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+      // .fa-css3{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+      // .fa-html5{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+      // .fa-python{
+        
+      //   padding-right: 5rem;
+      //   color: #4bcae1;
+      //   padding-bottom: 8rem;
+      //   border:1px solid var(--color-grey-2);
+      //   padding:50px;
+      //   border-radius: 5px;
+      //   transition: all .4s ease-in-out;
+      //   box-shadow: 1px 2px 15px rgba(0,0,0,.32);
+      // }
+
+
+
+
+
+
+
+       .timeline-item .python{
+        
+    border: 1px solid var (var(--color-grey-5));
+    border-radius: 5px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    line-height: 1.5;
+     word-spacing: 3px;
+     padding-top: 2.6rem;
+     padding-bottom: 2.6rem;
+     padding: 40px;
+  
+    h5{
+      font-size: 1.3rem;
+      color: #4bcae1;
+      line-height: 1.8px;
+      word-spacing: 3px;
+      padding-bottom: 1rem;
+  
+    }
+  
+    span{
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  
+    h6{
+      font-size: .8rem;
+     font-weight: 200;
+    }
+    &:hover{
+      padding: 2rem;
+      border: 1px solid var(--color-grey-2);
+      border-radius: 5px;
+      box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease-in-out;
+      }
+
+   }
