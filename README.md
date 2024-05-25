@@ -1,1 +1,1 @@
-Creating a portfolio website using HTML, CSS, and JavaScript is a great way to showcase your skills, projects, and experiences.
+Created a portfolio website using HTML, CSS, and JavaScript in a great way to showcase my skills, projects, and experiences.
